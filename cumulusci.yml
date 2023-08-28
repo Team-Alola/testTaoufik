@@ -1,0 +1,26 @@
+minimum_cumulusci_version: '3.78.0'
+project:
+    name: testTaoufik
+    package:
+        name: testTaoufik
+        namespace: testTaoufik
+        api_version: '58.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/testTaoufik/tests
+            options:
+                outputdir: robot/testTaoufik/results
+
+    robot_testdoc:
+        options:
+            path: robot/testTaoufik/tests
+            output: robot/testTaoufik/doc/testTaoufik_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
