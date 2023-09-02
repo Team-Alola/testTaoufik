@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Rendez_vous__c.Date_de_rendez_vous__c</field>
+    </columns>
+    <columns>
+        <field>Rendez_vous__c.Type_de_rendez_vous__c</field>
+    </columns>
+    <columns>
+        <field>Rendez_vous__c.Piste__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Rendez_vous__c.Piste__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>fr</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Nombre de rendez-vous</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Rendez_vous__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Rendez_vous__c.Date_de_rendez_vous__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

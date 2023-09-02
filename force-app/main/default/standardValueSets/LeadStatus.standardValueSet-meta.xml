@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Rdv téléphonique</fullName>
+        <default>true</default>
+        <label>Rdv téléphonique</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Fermée</fullName>
+        <default>false</default>
+        <label>Fermée</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Convertie</fullName>
+        <default>false</default>
+        <label>Convertie</label>
+        <converted>true</converted>
+    </standardValue>
+</StandardValueSet>

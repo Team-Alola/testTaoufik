@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>OrderStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Paiement</fullName>
+        <default>false</default>
+        <label>Paiement</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Visite technique (S+1)</fullName>
+        <default>false</default>
+        <label>Visite technique (S+1)</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Validation technique du projet</fullName>
+        <default>false</default>
+        <label>Validation technique du projet</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Récupération des éléments</fullName>
+        <default>false</default>
+        <label>Récupération des éléments</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Dépôt du dossier à la mairie (traitement 30 à 60j)</fullName>
+        <default>false</default>
+        <label>Dépôt du dossier à la mairie (traitement 30 à 60j)</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Accord administratif de la mairie</fullName>
+        <default>false</default>
+        <label>Accord administratif de la mairie</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Commande du matériel</fullName>
+        <default>false</default>
+        <label>Commande du matériel</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Planification travaux</fullName>
+        <default>false</default>
+        <label>Planification travaux</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+</StandardValueSet>
